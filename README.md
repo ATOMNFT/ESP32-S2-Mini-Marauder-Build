@@ -21,7 +21,7 @@ Coming soon...
 <hr>
 <br>
 
-## Simple Flash Method & Usage:
+## Simple Flash Method
 1. Use the <a href=https://atomnft.github.io/ESP32-D1-Mini-Marauder-Build/flash0.html>ESP32 D1 Mini Flash Tool</a> in google chrome to flash the project onto ESP32 (Purple s2 mini)
-2.
+
   

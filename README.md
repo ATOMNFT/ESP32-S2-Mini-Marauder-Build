@@ -3,11 +3,12 @@
 
 ## 🌟 Flash Tool Under Construction as of 04/14/24 🌟
 
-<b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 D1 mini (Purple) module.</b> 
+<b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 D1 mini (Purple) module.</b> Flash tool located at bottom of repo.</b> 
 
 ### More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.  
+
 <br>
-<br>
+
 <b>I am also in the process of designing a case to house this in and will share files along with build process soon.</b>
 
 <br>

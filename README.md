@@ -8,7 +8,7 @@
 ### More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.  
 
 <br>
-
+<b>I have followed <a href="https://www.reddit.com/r/flipperzero/comments/16eru8g/comment/kpfxvoi/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button">THIS</a> tutorial and I'm doing the sd card breakout version. If you read the reddit post by Ant966 at the bottom they have a diagram showing wiring.</b>
 <b>I am also in the process of designing a case to house this in and will share files along with build process soon.</b>
 
 <br>

@@ -2,7 +2,7 @@
   "name": "ESP32 D1 Mini Marauder",
   "builds": [
     {
-      "chipFamily": "ESP32",
+      "chipFamily": "ESP32-S2",
       "improv": false,
       "parts": [
         { "path": "bootloader.bin", "offset": 4096 },

@@ -15,6 +15,7 @@ If you read the reddit post by Ant966 at the bottom they have a diagram showing 
 <b>I am also in the process of designing a case to house this in and will share files along with build process soon.</b>
 
 <br>
+<hr>
 
 ## 🗣️ Shoutouts 🗣️
 
@@ -23,14 +24,19 @@ If you read the reddit post by Ant966 at the bottom they have a diagram showing 
 And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for the foundational work on ESP32 Marauder.</b>
 
 <br>
+<hr>
+
+## ✴️ Marauder Info ✴️
 
 ### More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
 
+<br>
 <hr>
 
-### Simple Flash Method
+### ⚡ Simple Flash Method ⚡
 1. Use the <a href=https://atomnft.github.io/ESP32-D1-Mini-Marauder-Build/flash0.html>ESP32 D1 Mini Flash Tool</a> in google chrome to flash the project onto ESP32 (Purple s2 mini)
 
+<br>
 <hr>
 
 ## Pics of build 

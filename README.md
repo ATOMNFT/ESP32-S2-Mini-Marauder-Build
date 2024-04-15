@@ -5,6 +5,16 @@
 
 <b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 D1 mini (Purple) module.</b> This flash tool install version 13.8 of wifi Marauder. I'm working on updating the tool to 13.9 and will push the files in the near future.</b> 
 
+<br>
+
+## Shoutouts 
+
+<b>A huge thank you goes to <a href=https://www.reddit.com/user/Ant966/>Danny-(Ant966)</a> over at reddit for helping with the tut! 
+<br>
+And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for the foundational work on ESP32 Marauder.</b>
+
+<br>
+
 ### More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
 
 <br>
@@ -32,13 +42,7 @@ If you read the reddit post by Ant966 at the bottom they have a diagram showing 
 <br>   
 <hr>
 
-## Shoutouts 
 
-<b>A huge thank you goes to <a href=https://www.reddit.com/user/Ant966/>Danny-(Ant966)</a> over at reddit for helping with the tut! 
-<br>
-And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for the foundational work on ESP32 Marauder.</b>
-
-<br>
 
 
 

@@ -17,7 +17,7 @@ This flash tool install version 13.8 of wifi Marauder. I'm working on updating t
 
 
 ## Pics of build 
-Coming soon...
+![wemos-1](Images/wemos-1.jpg)![wemos-2](Images/wemos-2.jpg)![wemos-3](Images/wemos-3.jpg)
 
 <br>   
 <hr>

@@ -3,11 +3,15 @@
 
 ## 🌟 Flash Tool Fully working as of 04/14/24 🌟
 
-<b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 D1 mini (Purple) module.</b> This flash tool install version 13.8 of wifi Marauder. I'm working on updating the tool to 13.9 and will push the files in the near future.
-<br> 
-Flash tool located at bottom of repo.
+<b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 D1 mini (Purple) module.</b> This flash tool install version 13.8 of wifi Marauder. I'm working on updating the tool to 13.9 and will push the files in the near future.</b> 
+
 <br>
-</b> 
+ 
+## Simple Flash Method
+1. Use the <a href=https://atomnft.github.io/ESP32-D1-Mini-Marauder-Build/flash0.html>ESP32 D1 Mini Flash Tool</a> in google chrome to flash the project onto ESP32 (Purple s2 mini)
+
+<br>
+
 
 ### More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.  
 
@@ -29,7 +33,6 @@ If you read the reddit post by Ant966 at the bottom they have a diagram showing 
 <hr>
 <br>
 
-## Simple Flash Method
-1. Use the <a href=https://atomnft.github.io/ESP32-D1-Mini-Marauder-Build/flash0.html>ESP32 D1 Mini Flash Tool</a> in google chrome to flash the project onto ESP32 (Purple s2 mini)
+
 
   

@@ -16,7 +16,7 @@ If you read the reddit post by Ant966 at the bottom they have a diagram showing 
 
 <br>
 
-## Shoutouts 
+## 🗣️ Shoutouts 🗣️
 
 <b>A huge thank you goes to <a href=https://www.reddit.com/user/Ant966/>Danny-(Ant966)</a> over at reddit for helping with the tut! 
 <br>

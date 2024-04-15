@@ -37,8 +37,6 @@ If you read the reddit post by Ant966 at the bottom they have a diagram showing 
 <b>A huge thank you goes to <a href=https://www.reddit.com/user/Ant966/>Danny-(Ant966)</a> over at reddit for helping with the tut! 
 <br>
 And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for the foundational work on ESP32 Marauder.</b>
-  
-  <b>A big thank you as well goes to the creators and supporters of the [ESP32 Cheap Yellow Display](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display) project and the community Discord, especially **@cod5fgzj**, [**ggaljoen**](https://github.com/ggaljoen). And of course JustCallMeKoko for the foundational work on ESP32 Marauder.</b>
 
 <br>
 

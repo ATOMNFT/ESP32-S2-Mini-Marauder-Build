@@ -26,10 +26,6 @@ And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for t
 
 ### More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
 
-<br>
-<br>
-<br>
-
 <hr>
 
 ### Simple Flash Method

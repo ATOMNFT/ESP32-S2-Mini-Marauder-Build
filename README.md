@@ -23,6 +23,13 @@ If you read the reddit post by Ant966 at the bottom they have a diagram showing 
 <br>
 <hr>
 
+## Pics of build 
+![wemos-1](Images/wemos-1.jpg)![wemos-2](Images/wemos-2.jpg)![wemos-3](Images/wemos-3.jpg)
+
+<br>   
+<hr>
+
+
 ## 🗣️ Shoutouts 🗣️
 
 <b>A huge thank you goes to <a href=https://www.reddit.com/user/Ant966/>Danny-(Ant966)</a> over at reddit for helping with the tut! 
@@ -45,11 +52,6 @@ More info about "Wifi Marauder" can be located <a href="https://github.com/justc
 <br>
 <hr>
 
-## Pics of build 
-![wemos-1](Images/wemos-1.jpg)![wemos-2](Images/wemos-2.jpg)![wemos-3](Images/wemos-3.jpg)
-
-<br>   
-<hr>
 
 
 

@@ -3,7 +3,9 @@
 
 ## 🌟 Flash Tool Fully working as of 04/14/24 🌟
 
-<b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 D1 mini (Purple) module.</b> This flash tool install version 13.8 of wifi Marauder. I'm working on updating the tool to 13.9 and will push the files in the near future.</b> 
+<b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 D1 mini (Purple) module. 
+<br> 
+This flash tool install version 13.8 of wifi Marauder. I'm working on updating the tool to 13.9 and will push the files in the near future.</b> 
 
 <br>
 
@@ -32,7 +34,7 @@ And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for t
 
 ## ✴️ Marauder Info ✴️
 
-### More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
+More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
 
 <br>
 <hr>

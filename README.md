@@ -14,6 +14,9 @@ If you read the reddit post by Ant966 at the bottom they have a diagram showing 
 <br>
 <b>I am also in the process of designing a case to house this in and will share files along with build process soon.</b>
 
+## STL files
+<b>These are files used to build the case for this project. You can grab them here in the repo or from <a href=https://www.printables.com/model/847246-esp32-s2-mini-case>Printables</a>
+
 <br>
 <hr>
 

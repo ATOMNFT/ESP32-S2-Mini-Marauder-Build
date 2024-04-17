@@ -1,4 +1,4 @@
-![Header](Images/mainheader.png)
+![Header](Images/main-header.png)
 <br>
 
 ## 🌟 Flash Tool Fully working as of 04/14/24 🌟

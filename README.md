@@ -5,7 +5,7 @@
 
 <b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 D1 mini (Purple) module. 
 <br> 
-This flash tool install version 13.8 of wifi Marauder. I'm working on updating the tool to 13.9 and will push the files in the near future.</b> 
+This flash tool install version 13.8 of wifi Marauder. I'm working on updating the tool to 13.9 and will push the files in the near future. Flash tool is located at bottom of page.</b> 
 
 <br>
 

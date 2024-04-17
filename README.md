@@ -3,7 +3,7 @@
 
 ## 🌟 Flash Tool Fully working as of 04/14/24 🌟
 
-<b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 S2 mini (Purple) module. 
+<b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 S2 mini (Purple) module in conjunction with the Flipper Zero. 
 <br> 
 This flash tool install version 13.8 of wifi Marauder. I'm working on updating the tool to 13.9 and will push the files in the near future. Flash tool is located at bottom of page.</b> 
 

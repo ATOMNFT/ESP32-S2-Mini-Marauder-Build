@@ -18,13 +18,14 @@ If you read the reddit post by Ant966 at the bottom they have a diagram showing 
 
 ## STL files
 <b>These are files used to build the case for this project. You can grab them here in the repo or from <a href=https://www.printables.com/model/847246-esp32-s2-mini-case>Printables</a>
-![1](Images/case-1.jpg)![2](Images/case-2.jpg)![3](Images/case-3.jpg)![4](Images/case-4.jpg)![5](Images/case-5.jpg)![6](Images/case-6.jpg)
+
 
 <br>
 <hr>
 
 ## Pics of build 
 ![wemos-1](Images/wemos-1.jpg)![wemos-2](Images/wemos-2.jpg)![wemos-3](Images/wemos-3.jpg)
+![1](Images/case-1.jpg)![2](Images/case-2.jpg)![3](Images/case-3.jpg)![4](Images/case-4.jpg)![5](Images/case-5.jpg)![6](Images/case-6.jpg)
 
 <br>   
 <hr>

@@ -3,9 +3,9 @@
 
 ## 🌟 Flash Tool Fully working as of 04/14/24 🌟
 
-<b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 S2 mini (Purple) module in conjunction with the Flipper Zero. 
+<b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 S2 mini (Purple) module in conjunction with the Flipper Zero. The S2 Mini is a esp32 module without blutooth.
 <br> 
-This flash tool install version 13.8 of wifi Marauder. I'm working on updating the tool to 13.9 and will push the files in the near future. Flash tool is located at bottom of page.</b> 
+This flash tool install version 13.8 of wifi Marauder. I'm working on updating the tool to 13.9 and will push the files in the near future.</b> 
 
 <br>
 
@@ -15,6 +15,19 @@ the sd breakout had be done to allow it to fit under the wemos S2. <br>
 If you read the reddit post by Ant966 at the bottom they have a diagram showing wiring.</b> 
 <br>
 <b>I am also in the process of designing a case to house this in and will share files along with build process soon.</b>
+
+<br>
+<hr>
+
+## ✴️ Marauder Info ✴️
+
+More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
+
+<br>
+<hr>
+
+### ⚡ Simple Flash Method ⚡
+1. Use the <a href=https://atomnft.github.io/ESP32-S2-Mini-Marauder-Build/flash0.html>ESP32 S2 Mini Flash Tool</a> in google chrome to flash the project onto ESP32 (Purple s2 mini)
 
 <br>
 <hr>
@@ -50,18 +63,6 @@ And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for t
 <br>
 <hr>
 
-## ✴️ Marauder Info ✴️
-
-More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
-
-<br>
-<hr>
-
-### ⚡ Simple Flash Method ⚡
-1. Use the <a href=https://atomnft.github.io/ESP32-S2-Mini-Marauder-Build/flash0.html>ESP32 S2 Mini Flash Tool</a> in google chrome to flash the project onto ESP32 (Purple s2 mini)
-
-<br>
-<hr>
 
 
 

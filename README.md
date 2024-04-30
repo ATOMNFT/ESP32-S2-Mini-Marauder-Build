@@ -1,7 +1,12 @@
 ![Header](Images/s2header.png)
 <br>
 
-## 🌟 Flash Tool Fully working as of 04/14/24 🌟
+## 🌟 Updates as of 04/30/24 🌟
+- **Marauder for S2 mini updated to v0.13.10**
+
+- **TX & RX pins defined to correct pins on S2 mini 
+(Thanks to <a href=https://www.reddit.com/user/Ant966/>Danny-(Ant966)</a> & <a href=https://www.youtube.com/@SurvivalHacking>SurvivalHacking</a> for providing your diagrams)**
+
 
 <b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 S2 mini (Purple) module in conjunction with the Flipper Zero. The S2 Mini is a esp32 module without blutooth.
 <br> 

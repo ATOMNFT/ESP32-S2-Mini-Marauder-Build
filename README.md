@@ -17,7 +17,7 @@
 
 <b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 S2 mini (Purple) module in conjunction with the Flipper Zero. The S2 Mini is a esp32 module without blutooth.
 <br> 
-This flash tool install version 13.8 of wifi Marauder. I'm working on updating the tool to 13.9 and will push the files in the near future.</b> 
+This flash tool installs version 0.13.10 (Current build) of ESPMarauder by <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a>.</b> 
 
 <br>
 

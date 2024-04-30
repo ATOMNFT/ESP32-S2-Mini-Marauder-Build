@@ -2,8 +2,11 @@
 <br>
 
 <div align="center">
+
 ## 🌟 Updates as of 04/30/24 🌟
+
 </div>
+
 - **Marauder for S2 mini updated to v0.13.10**
 
 - **TX & RX pins defined to correct pins on S2 mini 

@@ -26,8 +26,6 @@ tutorial for building and I'm using a pcb prototyping board to build it all on. 
 the sd breakout had be done to allow it to fit under the wemos S2. <br>
 If you read the reddit post by Ant966 at the bottom they have a diagram showing wiring.</b> 
 
-<br>
-
 ## ✴️ Marauder Info ✴️
 
 More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.

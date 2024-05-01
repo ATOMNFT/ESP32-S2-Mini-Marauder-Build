@@ -30,8 +30,6 @@ If you read the reddit post by Ant966 at the bottom they have a diagram showing 
 
 More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
 
-- - - -
-
 <hr>
 
 ## ⚡ Simple Flash Method ⚡

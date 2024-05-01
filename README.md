@@ -29,7 +29,9 @@ If you read the reddit post by Ant966 at the bottom they have a diagram showing 
 ## ✴️ Marauder Info ✴️
 
 More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
-Markup :  - - - -
+
+- - - -
+
 <hr>
 
 ## ⚡ Simple Flash Method ⚡

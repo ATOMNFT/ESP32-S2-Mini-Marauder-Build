@@ -39,7 +39,7 @@ More info about "Wifi Marauder" can be located <a href="https://github.com/justc
 <hr>
 
 ## STL files
-<b>These are files used to build the case for this project. You can grab them here in the repo or from <a href=https://www.printables.com/model/847246-esp32-s2-mini-case>Printables</a>
+<b>The files used to build the case for this project are in the repo above or you can grab them from <a href=https://www.printables.com/model/847246-esp32-s2-mini-case>Printables</a>
 
 <br>
 <hr>

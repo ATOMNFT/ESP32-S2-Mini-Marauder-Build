@@ -25,17 +25,13 @@ This flash tool installs version 0.13.10 (Current build) of ESPMarauder by <a hr
 tutorial for building and I'm using a pcb prototyping board to build it all on. <br> I'm doing the sd card breakout version and I'm putting the sd breakout under the wemos S2. <br> Some filing to 
 the sd breakout had be done to allow it to fit under the wemos S2. <br>
 If you read the reddit post by Ant966 at the bottom they have a diagram showing wiring.</b> 
-<br>
-<b>I am also in the process of designing a case to house this in and will share files along with build process soon.</b>
 
 <br>
-<hr>
 
 ## ✴️ Marauder Info ✴️
 
 More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
 
-<br>
 <hr>
 
 ### ⚡ Simple Flash Method ⚡

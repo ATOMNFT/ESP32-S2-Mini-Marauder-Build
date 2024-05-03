@@ -37,7 +37,7 @@ More info about "Wifi Marauder" can be located <a href="https://github.com/justc
 
 <br>
  
-Thanks to <a href="https://www.reddit.com/user/phalkon13">phalkon13</a> for discovering the flasher tool works on <a href="https://www.amazon.com/gp/product/B0C33K27QF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">THIS</a> S2 mini mod on amazon.
+Thanks to <a href="https://www.reddit.com/user/phalkon13">phalkon13</a> for discovering the flasher tool works on <a href="https://www.amazon.com/gp/product/B0C33K27QF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">K0R41 Mini</a> WiFi Devboard for Flipper Zero on amazon.
 
 <br>
 <hr>

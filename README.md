@@ -17,7 +17,8 @@
 
 <b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 S2 mini (Purple) module in conjunction with the Flipper Zero. The S2 Mini is a esp32 module without blutooth.
 <br> 
-This flash tool installs version 0.13.10 (Current build) of ESPMarauder by <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a>.</b> 
+This flash tool installs version 0.13.10 (Current build) of ESPMarauder by <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a>.
+The flasher tool also works on <a href="https://www.amazon.com/gp/product/B0C33K27QF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">K0R41 Mini</a> WiFi Devboard for Flipper Zero on amazon</b> 
 
 <br>
 
@@ -34,10 +35,6 @@ More info about "Wifi Marauder" can be located <a href="https://github.com/justc
 
 ## ⚡ Simple Flash Method ⚡
 1. Head over to the <a href="https://atomnft.github.io/ESP32-S2-Mini-Marauder-Build/flash0.html">ESP32 S2 Mini Flash Tool</a> in google chrome to flash the project onto ESP32 S2 mini (Purple module) 
-
-<br>
- 
-Thanks to <a href="https://www.reddit.com/user/phalkon13">phalkon13</a> for discovering the flasher tool works on <a href="https://www.amazon.com/gp/product/B0C33K27QF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">K0R41 Mini</a> WiFi Devboard for Flipper Zero on amazon.
 
 <br>
 <hr>
@@ -68,7 +65,10 @@ Thanks to <a href="https://www.reddit.com/user/phalkon13">phalkon13</a> for disc
 <br>
 Also want to thank <a href=https://github.com/Fr4nkFletcher>Fr4nkFletcher</a> for helping with the sd breakout pins. 
 <br>
-And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for the foundational work on ESP32 Marauder.</b>
+And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for the foundational work on ESP32 Marauder.
+<br>
+Thanks to <a href="https://www.reddit.com/user/phalkon13">phalkon13</a> for discovering the flasher tool works on <a href="https://www.amazon.com/gp/product/B0C33K27QF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">K0R41 Mini</a> WiFi Devboard for Flipper Zero on amazon.</b>
+
 
 <br>
 <hr>

@@ -28,7 +28,7 @@ tutorial for building and I'm using a pcb prototyping board to build it all on. 
 the sd breakout had be done to allow it to fit under the wemos S2. <br>
 If you read the reddit post by Ant966 at the bottom they have a diagram showing wiring. I have also provided my own diagram as well below.</b> 
 
-## Added Arduino Sketch
+## 📁 Added Arduino Sketch 📁
 The folder titled "S2Mini_esp32_v1.0.0_marauder" contains the sketch files if you'd like to adjust anything in the sketch before flashing.
 
 ---

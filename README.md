@@ -3,11 +3,11 @@
 
 <div align="center">
 
-## 🌟 Updates as of 04/30/24 🌟
+## 🌟 Updates as of 06/27/24 🌟
 
 </div>
 
-- **Marauder files for S2 mini updated to v0.13.10**
+- **Marauder files for S2 mini updated to v1.0.0**
 
 - **TX & RX pins defined to correct pins on S2 mini 
 (Thanks to <a href=https://www.reddit.com/user/Ant966/>Danny-(Ant966)</a> & <a href=https://www.youtube.com/@SurvivalHacking>SurvivalHacking</a> for providing your diagrams)**
@@ -28,8 +28,10 @@ tutorial for building and I'm using a pcb prototyping board to build it all on. 
 the sd breakout had be done to allow it to fit under the wemos S2. <br>
 If you read the reddit post by Ant966 at the bottom they have a diagram showing wiring. I have also provided my own diagram as well below.</b> 
 
-## ✴️ Marauder Info ✴️
+## Added Arduino Sketch
+The folder titled "S2Mini_esp32_v1.0.0_marauder" contains the sketch files if you'd like to adjust anything in the sketch before flashing.
 
+## ✴️ Marauder Info ✴️
 More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
 
 <hr>

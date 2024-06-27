@@ -31,6 +31,8 @@ If you read the reddit post by Ant966 at the bottom they have a diagram showing 
 ## Added Arduino Sketch
 The folder titled "S2Mini_esp32_v1.0.0_marauder" contains the sketch files if you'd like to adjust anything in the sketch before flashing.
 
+---
+
 ## ✴️ Marauder Info ✴️
 More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
 

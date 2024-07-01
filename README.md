@@ -78,10 +78,7 @@ Thanks to <a href="https://www.reddit.com/user/phalkon13">phalkon13</a> for disc
 <br>
 <hr>
 
+<p align="center">
+<img src="https://github.com/ATOMNFT/ESP32-S2-Mini-Marauder-Build/blob/main/Images/Repolike.svg">
+</p>
 
-
-
-
-
-
-  

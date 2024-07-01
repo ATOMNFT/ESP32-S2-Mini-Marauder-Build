@@ -1,6 +1,12 @@
 ![Header](Images/s2header.png)
 <br>
 
+<p align="center">
+  <img src="https://github.com/ATOMNFT/ESP32-S2-Mini-Marauder-Build/blob/main/Images/Repolike.svg">
+  </p>
+  
+---
+
 <div align="center">
 
 ## 🌟 Updates as of 06/27/24 🌟

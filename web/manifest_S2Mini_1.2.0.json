@@ -1,0 +1,20 @@
+{
+  "name": "ESP32 S2 Mini Marauder v1.2.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S2",
+      "improv": false,
+      "parts": [
+        { "path": "S2Mini_esp32_v1.0.0_marauder.ino.bootloader.bin", "offset": 4096 },
+        { "path": "S2Mini_esp32_v1.0.0_marauder.ino.partitions.bin", "offset": 32768 },
+        { "path": "S2Mini_esp32_v1.0.0_marauder.ino.bin", "offset": 65536 }
+      ]
+    },
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        { "path": "esp8266.bin", "offset": 0 }
+      ]
+    }
+  ]
+}

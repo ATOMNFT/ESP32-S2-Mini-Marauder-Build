@@ -9,11 +9,11 @@
 
 <div align="center">
 
-## 🌟 Updates as of 01/4/25 🌟
+## 🌟 Updates as of 05/5/25 🌟
 
 </div>
 
-- **Marauder files for S2 mini updated to v1.2.0**
+- **Marauder files for S2 mini updated to v1.4.6**
 
 - **TX & RX pins defined to correct pins on S2 mini 
 (Thanks to <a href=https://www.reddit.com/user/Ant966/>Danny-(Ant966)</a> & <a href=https://www.youtube.com/@SurvivalHacking>SurvivalHacking</a> for providing your diagrams)**

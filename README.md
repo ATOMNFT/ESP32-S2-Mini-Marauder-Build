@@ -35,7 +35,7 @@ the sd breakout had be done to allow it to fit under the wemos S2. <br>
 If you read the reddit post by Ant966 at the bottom they have a diagram showing wiring. I have also provided my own diagram as well below.</b> 
 
 ## 📁 Added Arduino Sketch 📁
-The repo also contains the sketch files for 1.0.0 & 1.2.0 if you'd like to adjust anything in the sketch before flashing.
+The repo also contains the sketch files for 1.2.0 & 1.4.6 if you'd like to adjust anything in the sketch before flashing.
 
 ---
 

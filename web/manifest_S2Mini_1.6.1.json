@@ -5,9 +5,9 @@
       "chipFamily": "ESP32-S2",
       "improv": false,
       "parts": [
-        { "path": "S2Mini_esp32_v1.4.6_marauder.ino.bootloader.bin", "offset": 4096 },
-        { "path": "S2Mini_esp32_v1.4.6_marauder.ino.partitions.bin", "offset": 32768 },
-        { "path": "S2Mini_esp32_v1.4.6_marauder.ino.bin", "offset": 65536 }
+        { "path": "S2Mini_esp32_v1.6.1_marauder.ino.bootloader.bin", "offset": 4096 },
+        { "path": "S2Mini_esp32_v1.6.1_marauder.ino.partitions.bin", "offset": 32768 },
+        { "path": "S2Mini_esp32_v1.6.1_marauder.ino.bin", "offset": 65536 }
       ]
     },
     {

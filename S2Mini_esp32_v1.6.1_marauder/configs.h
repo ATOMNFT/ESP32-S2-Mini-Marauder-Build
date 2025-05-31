@@ -59,7 +59,7 @@
   #elif defined(MARAUDER_KIT)
     #define HARDWARE_NAME "Marauder Kit"
   #elif defined(MARAUDER_FLIPPER)
-    #define HARDWARE_NAME "Flipper Zero Dev Board"
+    #define HARDWARE_NAME "FlipperZero S2 Mini"
   #elif defined(ESP32_LDDB)
     #define HARDWARE_NAME "ESP32 LDDB"
   #elif defined(MARAUDER_DEV_BOARD_PRO)

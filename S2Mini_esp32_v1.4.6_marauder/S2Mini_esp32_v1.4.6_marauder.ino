@@ -185,7 +185,7 @@ void setup()
     delay(10);
   #endif
 
-  Serial.begin(115200, SERIAL_8N1, 17, 18);    // modified to work with Wemos S2 MINI board moving UART PIN to GPIO17 as RX and GPIO18 as TX
+  Serial.begin(115200, SERIAL_8N1, 17, 18);    // modified by Davide Gatti www.survivalhacking.it to work with Wemos S2 MINI board moving UART PIN to GPIO17 as RX and GPIO18 as TX
   
   //Serial.begin(115200);
 

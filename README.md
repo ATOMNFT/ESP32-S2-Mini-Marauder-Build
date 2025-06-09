@@ -9,11 +9,11 @@
 
 <div align="center">
 
-## 🌟 Updates as of 31/5/25 🌟
+## 🌟 Updates as of 6/9/25 🌟
 
 </div>
 
-- **Marauder files for S2 mini updated to v1.6.1**
+- **Marauder files for S2 mini updated to v1.6.2**
 
 - **TX & RX pins defined to correct pins on S2 mini 
 (Thanks to <a href=https://www.reddit.com/user/Ant966/>Danny-(Ant966)</a> & <a href=https://www.youtube.com/@SurvivalHacking>SurvivalHacking</a> for providing your diagrams)**
@@ -23,7 +23,7 @@
 
 <b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 S2 mini (Purple) module in conjunction with the Flipper Zero. The S2 Mini is a esp32 module without blutooth.
 <br> 
-This flash tool installs versions 1.2.0, 1.4.6 or 1.6.1 (Newest) of ESPMarauder by <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a>.
+This flash tool installs version 1.6.2 (Newest) of ESPMarauder by <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a>.
 The flasher tool also works on <a href="https://www.amazon.com/gp/product/B0C33K27QF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">K0R41 Mini</a> WiFi Devboard for Flipper Zero on amazon 
 </b> 
 
@@ -35,7 +35,7 @@ the sd breakout had be done to allow it to fit under the wemos S2. <br>
 If you read the reddit post by Ant966 at the bottom they have a diagram showing wiring. I have also provided my own diagram as well below.</b> 
 
 ## 📁 Added Arduino Sketch 📁
-The repo also contains the sketch files for 1.2.0 & 1.4.6 if you'd like to adjust anything in the sketch before flashing.
+The repo also contains the sketch files for 1.6.2 if you'd like to adjust anything in the sketch before flashing.
 
 ---
 

@@ -39,7 +39,6 @@ The repo also contains the sketch files for 1.7.0 if you'd like to adjust anythi
 
 ## ⚡ Simple Flash Method ⚡
 * If you're not viewing this page in google chrome you should do so now by right clicking the button and copying the address and opening it with google chrome.
-
 * If you're already in chrome click the button to flash the project onto ESP32 S2 mini (Purple module)
  
 [![](https://github.com/ATOMNFT/ESP32-S2-Mini-Marauder-Build/blob/main/Images/flashbutton.png)](https://atomnft.github.io/ESP32-S2-Mini-Marauder-Build/flash0.html) 

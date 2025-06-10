@@ -32,7 +32,7 @@ tutorial for building and I'm using a pcb prototyping board to build it all on. 
 the sd breakout had be done to allow it to fit under the wemos S2. <br>
 If you read the reddit post by Ant966 at the bottom they have a diagram showing wiring. I have also provided my own diagram as well below.</b> 
 
-## 📁 Added Arduino Sketch 📁
+## 📁 Arduino Sketch 📁
 The repo also contains the sketch files for 1.7.0 if you'd like to adjust anything in the sketch before flashing.
 
 ---

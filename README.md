@@ -45,7 +45,7 @@ More info about "Wifi Marauder" can be located <a href="https://github.com/justc
 <hr>
 
 ## ⚡ Simple Flash Method ⚡
-* If you're not viewing this page in google chrome you should do so now by right clicking the button and if you have chrome in your sub menu choose it.
+* If you're not viewing this page in google chrome you should do so now by right clicking the button and copying the address and opening it with google chrome.
 
 * If you're already in chrome click the button to flash the project onto ESP32 S2 mini (Purple module)
  

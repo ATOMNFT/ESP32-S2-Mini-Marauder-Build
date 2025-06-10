@@ -9,11 +9,9 @@
 
 <div align="center">
 
-## 🌟 Updates as of 6/10/25 🌟
+## ⬆ ESP32-S2 mini Update 6/10/25 ⬆ <br> Added New v1.7.0!
 
 </div>
-
-- **Marauder files for S2 mini updated to v1.7.0**
 
 - **TX & RX pins defined to correct pins on S2 mini RX = GPIO17, TX = GPIO18
 (Thanks to <a href=https://www.reddit.com/user/Ant966/>Danny-(Ant966)</a> & <a href=https://www.survivalhacking.it>SurvivalHacking</a> for providing your diagrams)**

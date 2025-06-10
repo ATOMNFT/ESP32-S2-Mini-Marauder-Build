@@ -9,11 +9,11 @@
 
 <div align="center">
 
-## 🌟 Updates as of 6/9/25 🌟
+## 🌟 Updates as of 6/10/25 🌟
 
 </div>
 
-- **Marauder files for S2 mini updated to v1.6.2**
+- **Marauder files for S2 mini updated to v1.7.0**
 
 - **TX & RX pins defined to correct pins on S2 mini 
 (Thanks to <a href=https://www.reddit.com/user/Ant966/>Danny-(Ant966)</a> & <a href=https://www.youtube.com/@SurvivalHacking>SurvivalHacking</a> for providing your diagrams)**
@@ -35,7 +35,7 @@ the sd breakout had be done to allow it to fit under the wemos S2. <br>
 If you read the reddit post by Ant966 at the bottom they have a diagram showing wiring. I have also provided my own diagram as well below.</b> 
 
 ## 📁 Added Arduino Sketch 📁
-The repo also contains the sketch files for 1.6.2 if you'd like to adjust anything in the sketch before flashing.
+The repo also contains the sketch files for 1.7.0 if you'd like to adjust anything in the sketch before flashing.
 
 ---
 

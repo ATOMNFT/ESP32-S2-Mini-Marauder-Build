@@ -37,11 +37,6 @@ The repo also contains the sketch files for 1.7.0 if you'd like to adjust anythi
 
 ---
 
-## ✴️ Marauder Info ✴️
-More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
-
-<hr>
-
 ## ⚡ Simple Flash Method ⚡
 * If you're not viewing this page in google chrome you should do so now by right clicking the button and copying the address and opening it with google chrome.
 
@@ -70,6 +65,13 @@ More info about "Wifi Marauder" can be located <a href="https://github.com/justc
 
 <br>   
 <hr>
+
+---
+
+## ✴️ Marauder Info ✴️
+More info about "Wifi Marauder" can be located <a href="https://github.com/justcallmekoko/ESP32Marauder">HERE</a>.
+
+---
 
 
 ## 🗣️ Shoutouts 🗣️

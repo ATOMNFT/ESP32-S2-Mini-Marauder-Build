@@ -1,6 +1,6 @@
 {
   "name": "ESP32-S2 Mini Marauder",
-  "version": "1.7.2",
+  "version": "1.8.10",
   "description": "ESP32 Marauder for the ESP32-S2 Mini.",
   "icon": "Images/s2mini-icon.png"
 }

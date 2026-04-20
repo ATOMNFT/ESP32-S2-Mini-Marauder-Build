@@ -9,7 +9,7 @@
 
 <div align="center">
 
-## ⬆ ESP32-S2 mini Update 11/24/25 ⬆ <br> Added New v1.8.10!
+## ⬆ ESP32-S2 mini Update 4/20/26 ⬆ <br> Added New v1.11.1!
 
 </div>
 
@@ -21,7 +21,7 @@
 
 <b>Thought I'd make it easy for those wanting to try out "Wifi Marauder" on the esp32 S2 mini (Purple) module in conjunction with the Flipper Zero. The S2 Mini is a esp32 module without blutooth.
 <br> 
-This flash tool installs version 1.6.2 (Newest) of ESPMarauder by <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a>.
+This flash tool installs version v1.11.1 (Newest) of ESPMarauder by <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a>.
 The flasher tool also works on <a href="https://www.amazon.com/gp/product/B0C33K27QF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">K0R41 Mini</a> WiFi Devboard for Flipper Zero on amazon 
 </b> 
 

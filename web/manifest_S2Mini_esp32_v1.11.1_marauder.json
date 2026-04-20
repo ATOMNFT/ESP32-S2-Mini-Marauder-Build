@@ -1,0 +1,15 @@
+{
+  "name": "ESP32 S2 Mini Marauder v1.11.1",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S2",
+      "improv": false,
+      "parts": [
+        {
+          "path": "S2Mini_esp32_v1.11.1_marauder.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}

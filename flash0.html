@@ -1,143 +1,341 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-  
-  <meta charset="utf-8" />
-    <title>ESP32 S2 Mini Marauder flash Tool</title>
-    <img src="Images/s2toolheader.png" alt="Logo" class="logo">   
+    <meta charset="utf-8" />
+    <title>ESP32 S2 Mini Marauder Flash Tool</title>
     <meta
       name="description"
-      content="Easily allows users to install wifi marauder onto a (Purple) ESP32 S2 Mini."
+      content="Easily allows users to install WiFi Marauder onto a Purple ESP32 S2 Mini."
     />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="color-scheme" content="dark light" />
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
 
-    
     <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
       body {
-        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
-          Roboto, Ubuntu, sans-serif;
-        padding: 0;
+        width: 100%;
+        min-height: 100%;
         margin: 0;
+        padding: 0;
+      }
+
+      body {
+        height: 100vh;
+        overflow: hidden;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu,
+          sans-serif;
+        color: #ffffff;
         line-height: 1.4;
+        background:
+          radial-gradient(circle at top left, rgba(180, 80, 255, 0.45), transparent 32%),
+          radial-gradient(circle at bottom right, rgba(80, 220, 255, 0.22), transparent 34%),
+          linear-gradient(135deg, #080012 0%, #15042b 45%, #050010 100%);
       }
-      .content {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 12px;
+
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+        background-size: 34px 34px;
+        mask-image: radial-gradient(circle at center, black, transparent 78%);
       }
-      h2 {
-        margin-top: 2em;
-      }
-      h3 {
-        margin-top: 1.5em;
-      }
+
       a {
-        color: #03a9f4;
+        color: #77f7ff;
+        text-decoration: none;
       }
+
+      a:hover {
+        text-shadow: 0 0 10px rgba(119, 247, 255, 0.9);
+      }
+
+      .page-shell {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 14px;
+      }
+
+      .glass-card {
+        width: min(92vw, 680px);
+        max-height: calc(100vh - 28px);
+        padding: clamp(16px, 2.6vw, 28px);
+        border: 1px solid rgba(220, 170, 255, 0.42);
+        border-radius: 28px;
+        text-align: center;
+        background: linear-gradient(
+          145deg,
+          rgba(120, 45, 210, 0.24),
+          rgba(35, 8, 68, 0.72)
+        );
+        box-shadow:
+          0 0 30px rgba(172, 80, 255, 0.28),
+          inset 0 1px 0 rgba(255, 255, 255, 0.24);
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .glass-card::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        border-radius: 28px;
+        background: linear-gradient(
+          120deg,
+          transparent 0%,
+          rgba(255, 255, 255, 0.16) 18%,
+          transparent 38%
+        );
+        opacity: 0.55;
+      }
+
+      .card-content {
+        position: relative;
+        z-index: 1;
+      }
+
+      .logo {
+        display: block;
+        width: min(78vw, 390px);
+        max-height: 110px;
+        object-fit: contain;
+        margin: 0 auto 10px;
+        filter: drop-shadow(0 0 18px rgba(190, 92, 255, 0.85));
+      }
+
+      .eyebrow {
+        margin: 0 0 6px;
+        color: #dca7ff;
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.65rem, 4vw, 2.55rem);
+        line-height: 1.05;
+        text-shadow: 0 0 18px rgba(200, 90, 255, 0.72);
+      }
+
+      .subtitle {
+        max-width: 560px;
+        margin: 10px auto 16px;
+        color: rgba(255, 255, 255, 0.82);
+        font-size: clamp(0.9rem, 2vw, 1rem);
+      }
+
+      .instruction-panel {
+        margin: 0 auto 14px;
+        padding: 13px 15px;
+        border: 1px solid rgba(119, 247, 255, 0.28);
+        border-radius: 18px;
+        background: rgba(12, 4, 28, 0.55);
+        box-shadow: inset 0 0 24px rgba(119, 247, 255, 0.06);
+      }
+
+      .instruction-panel p {
+        margin: 0;
+        color: rgba(255, 255, 255, 0.88);
+        font-size: clamp(0.86rem, 1.8vw, 0.98rem);
+      }
+
+      .radios {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0 0 14px;
+      }
+
+      .radios li {
+        list-style: none;
+      }
+
+      .radio-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+        padding: 11px 16px;
+        border: 1px solid rgba(230, 190, 255, 0.38);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.08);
+        color: #ffffff;
+        font-weight: 700;
+        box-shadow: 0 0 18px rgba(164, 73, 255, 0.18);
+        cursor: pointer;
+      }
+
+      .radio-pill input {
+        accent-color: #c45cff;
+      }
+
+      .button-row {
+        min-height: 58px;
+        margin: 0 0 8px;
+      }
+
       .invisible {
         visibility: hidden;
       }
+
       .hidden {
         display: none;
       }
+
       esp-web-install-button[install-unsupported] {
         visibility: inherit;
       }
-      .content pre {
-        max-width: 100%;
-        overflow-y: scroll;
-      }
+
       .footer {
-        margin-top: 24px;
-        border-top: 1px solid #ccc;
-        padding-top: 24px;
+        margin-top: 12px;
+        padding-top: 12px;
+        border-top: 1px solid rgba(255, 255, 255, 0.16);
+        color: rgba(255, 255, 255, 0.76);
+        font-size: 0.86rem;
         text-align: center;
       }
-      .footer .initiative {
-        font-style: italic;
-        margin-top: 16px;
+
+      #visitor-counter {
+        display: inline-block;
+        margin: 9px auto 0;
+        padding: 6px 13px;
+        border: 1px solid rgba(119, 247, 255, 0.26);
+        border-radius: 999px;
+        background: rgba(119, 247, 255, 0.08);
+        color: #dffcff;
+        font-weight: 700;
+        letter-spacing: 0.02em;
       }
-      table {
-        border-spacing: 0;
-      }
-      td {
-        padding: 8px;
-        border-bottom: 1px solid #ccc;
-      }
-      .radios li {
-        list-style: none;
-        line-height: 2em;
-      }
-	  .logo {
-        max-width: 400px;
-		display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-	  .wrapper {
-        display: flex;
-        justify-content: center;
-      }
-	  .back1usb
-	   height: 18%;
-	   width: 20%;
-	   padding: 10px;
-	   text-align: center;
-	   }
-	   .back2usb
-	   height: 18%;
-	   width: 20%;
-	   padding: 10px;
-	   text-align: center;
-	   }
-      @media (prefers-color-scheme: dark) {
-        body {
-          background-color: #333;
-          color: #fff;
+
+      @media (max-height: 620px) {
+        .page-shell {
+          padding: 8px;
         }
-        a {
-          color: #58a6ff;
+
+        .glass-card {
+          padding: 12px;
+          border-radius: 20px;
+        }
+
+        .logo {
+          max-height: 74px;
+          margin-bottom: 5px;
+        }
+
+        .subtitle {
+          margin: 6px auto 9px;
+        }
+
+        .instruction-panel {
+          padding: 9px 11px;
+          margin-bottom: 9px;
+        }
+
+        .radio-pill {
+          padding: 8px 12px;
+        }
+
+        .button-row {
+          min-height: 50px;
+          margin-bottom: 2px;
+        }
+
+        .footer {
+          margin-top: 6px;
+          padding-top: 8px;
+          font-size: 0.78rem;
+        }
+
+        #visitor-counter {
+          margin-top: 5px;
+          padding: 4px 10px;
         }
       }
     </style>
+
     <script type="module" src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"></script>
   </head>
+
   <body>
-  
-    
-      <center>
-    <div class="content">
-      <p>Connect your S2 mini (Hold 0 on S2mini while plugging in the USB). <br> Select the "Flash" option and push connect. <br> Follow the steps to flash ESP32 Marauder.</p>
-      <ul class="radios">
-		<li>
-          <label><input type="radio" name="type" value="S2Mini_esp32_v1.12.0_marauder" /> S2Mini v1.12.0 Marauder</label>
-        </li>
-      </ul>
-      <p class="button-row" align="center">
-        <esp-web-install-button class="invisible"></esp-web-install-button>
-      </p>
-      </center>
-      <div class="footer">
-        ✨Flasher by <a href="https://github.com/ATOMNFT"
-          >atomnft.eth</a
-        > &mdash;
-        Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a> 🛠️
-		
-		<br>
-		
-		 
-		
-    </div>
+    <main class="page-shell">
+      <section class="glass-card">
+        <div class="card-content">
+          <img src="Images/s2toolheader.png" alt="ESP32 S2 Mini Marauder Flasher" class="logo" />
+
+          <p class="eyebrow">Purple S2 Mini Web Flasher</p>
+          <h1>ESP32 Marauder Flash Tool</h1>
+
+          <p class="subtitle">
+            Flash ESP32 Marauder onto your Purple ESP32 S2 Mini with a clean,
+            browser-based installer.
+          </p>
+
+          <div class="instruction-panel">
+            <p>
+              Connect your S2 Mini while holding <strong>0</strong>, choose the firmware below,
+              then press <strong>Connect</strong> and follow the flash steps.
+            </p>
+          </div>
+
+          <ul class="radios">
+            <li>
+              <label class="radio-pill">
+                <input type="radio" name="type" value="S2Mini_esp32_v1.12.0_marauder" />
+                S2 Mini v1.12.0 Marauder
+              </label>
+            </li>
+          </ul>
+
+          <p class="button-row" align="center">
+            <esp-web-install-button class="invisible"></esp-web-install-button>
+          </p>
+
+          <div class="footer">
+            ✨ Flasher by
+            <a href="https://github.com/ATOMNFT">atomnft.eth</a>
+            &mdash; Installer powered by
+            <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a> 🛠️
+            <br />
+            <span id="visitor-counter">Visitor count: 0</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <script>
-      document.querySelectorAll('input[name="type"]').forEach(radio =>
+      // Set the ESP Web Tools manifest after a firmware option is selected.
+      document.querySelectorAll('input[name="type"]').forEach((radio) => {
         radio.addEventListener("change", () => {
-          const button = document.querySelector('esp-web-install-button');
+          const button = document.querySelector("esp-web-install-button");
           button.manifest = `web/manifest_${radio.value}.json`;
-          button.classList.remove('invisible');
+          button.classList.remove("invisible");
+        });
+      });
+
+      // Simple local visitor counter. This counts visits on the current browser/device.
+      window.addEventListener("DOMContentLoaded", () => {
+        const counter = document.getElementById("visitor-counter");
+        const currentCount = Number(localStorage.getItem("s2_mini_page_view_count") || 0) + 1;
+
+        localStorage.setItem("s2_mini_page_view_count", currentCount);
+
+        if (counter) {
+          counter.innerText = `Visitor count: ${currentCount}`;
         }
-      ));
+      });
     </script>
   </body>
 </html>

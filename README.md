@@ -9,7 +9,7 @@
 
 <div align="center">
 
-# ⬆ ESP32-S2 mini Update 5/3/26 ⬆ <br> Added New v1.12.0!
+# ⬆ ESP32-S2 mini Update 7/4/26 ⬆ <br> Added New v1.12.3!
 
 </div>
 

@@ -16,7 +16,7 @@
 - **TX & RX pins defined to correct pins on S2 mini RX = GPIO17, TX = GPIO18
 (Thanks to <a href=https://www.reddit.com/user/Ant966/>Danny-(Ant966)</a> & <a href=https://www.survivalhacking.it>SurvivalHacking</a> for providing your diagrams)**
 
-# ⬆ If compiling from source!
+# 🛠️ If compiling from source!
 
 - **USB CDC on Boot Disabled**
 

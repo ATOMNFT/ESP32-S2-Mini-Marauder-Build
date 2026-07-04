@@ -20,6 +20,7 @@
 
 # 🛠️ If compiling from source!
 
+<p align="left">Use these settings in Arduino IDE</p>
 - **USB CDC on Boot Disabled**
 
 

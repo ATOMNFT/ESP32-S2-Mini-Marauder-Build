@@ -153,33 +153,44 @@
         font-size: clamp(0.86rem, 1.8vw, 0.98rem);
       }
 
-      .radios {
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        margin: 0 0 14px;
+      .firmware-select {
+        width: min(100%, 430px);
+        margin: 0 auto 14px;
+        text-align: left;
       }
 
-      .radios li {
-        list-style: none;
+      .firmware-select label {
+        display: block;
+        margin: 0 0 7px 4px;
+        color: #dca7ff;
+        font-size: 0.82rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
       }
 
-      .radio-pill {
-        display: inline-flex;
-        align-items: center;
-        gap: 9px;
-        padding: 11px 16px;
-        border: 1px solid rgba(230, 190, 255, 0.38);
-        border-radius: 999px;
-        background: rgba(255, 255, 255, 0.08);
+      .firmware-select select {
+        width: 100%;
+        padding: 13px 16px;
+        border: 1px solid rgba(230, 190, 255, 0.42);
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.1);
         color: #ffffff;
+        font-size: 1rem;
         font-weight: 700;
+        outline: none;
         box-shadow: 0 0 18px rgba(164, 73, 255, 0.18);
         cursor: pointer;
       }
 
-      .radio-pill input {
-        accent-color: #c45cff;
+      .firmware-select select:focus {
+        border-color: rgba(119, 247, 255, 0.72);
+        box-shadow: 0 0 22px rgba(119, 247, 255, 0.22);
+      }
+
+      .firmware-select option {
+        background: #15042b;
+        color: #ffffff;
       }
 
       .button-row {
@@ -244,8 +255,8 @@
           margin-bottom: 9px;
         }
 
-        .radio-pill {
-          padding: 8px 12px;
+        .firmware-select select {
+          padding: 10px 13px;
         }
 
         .button-row {
@@ -290,14 +301,19 @@
             </p>
           </div>
 
-          <ul class="radios">
-            <li>
-              <label class="radio-pill">
-                <input type="radio" name="type" value="S2Mini_esp32_v1.12.0_marauder" />
+          <div class="firmware-select">
+            <label for="firmware">Firmware Version</label>
+
+            <select id="firmware">
+              <option value="">Select firmware...</option>
+              <option value="S2Mini_esp32_v1.12.3_marauder">
+                S2 Mini v1.12.3 Marauder (Latest)
+              </option>
+              <option value="S2Mini_esp32_v1.12.0_marauder">
                 S2 Mini v1.12.0 Marauder
-              </label>
-            </li>
-          </ul>
+              </option>
+            </select>
+          </div>
 
           <p class="button-row" align="center">
             <esp-web-install-button class="invisible"></esp-web-install-button>
@@ -317,12 +333,16 @@
 
     <script>
       // Set the ESP Web Tools manifest after a firmware option is selected.
-      document.querySelectorAll('input[name="type"]').forEach((radio) => {
-        radio.addEventListener("change", () => {
-          const button = document.querySelector("esp-web-install-button");
-          button.manifest = `web/manifest_${radio.value}.json`;
-          button.classList.remove("invisible");
-        });
+      const firmwareSelect = document.getElementById("firmware");
+      const installButton = document.querySelector("esp-web-install-button");
+
+      firmwareSelect.addEventListener("change", () => {
+        if (firmwareSelect.value) {
+          installButton.manifest = `web/manifest_${firmwareSelect.value}.json`;
+          installButton.classList.remove("invisible");
+        } else {
+          installButton.classList.add("invisible");
+        }
       });
 
       // Simple local visitor counter. This counts visits on the current browser/device.

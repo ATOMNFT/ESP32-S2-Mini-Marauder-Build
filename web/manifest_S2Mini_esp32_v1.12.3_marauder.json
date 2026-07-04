@@ -1,0 +1,15 @@
+{
+  "name": "ESP32 S2 Mini Marauder v1.12.3",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S2",
+      "improv": false,
+      "parts": [
+        {
+          "path": "WiFi_Marauder_v1.12.3_ESP32-S2_Wemos_Merged.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
